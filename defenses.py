@@ -52,7 +52,7 @@ class Tank:
         self.lvl = 1
         self.rect = pygame.Rect(self.x, self.y, self.pic.get_width(), self.pic.get_height())
         self.shoot_count = 20
-        self.shoot_num = 5
+        self.shoot_num = 25
 
     def move_bullets(self):
         for bullet in self.bullets:
